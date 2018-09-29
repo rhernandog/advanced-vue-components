@@ -1,3 +1,3 @@
-# Controlled Component Sample
+# Advanced Vue Components Samples
 
-This is the controlled component sample for Advanced Vue Components
+Creating some reusable and more complex Vue Components.
