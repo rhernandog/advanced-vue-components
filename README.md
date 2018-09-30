@@ -4,4 +4,4 @@ Creating some reusable and more complex Vue Components.
 
 ## Start Up Code
 
-[Codesanbox Link](https://codesandbox.io/s/n4qolyr42m?from-embed)
+[Codesanbox Link](https://codesandbox.io/s/1v1o4lvp9j?from-embed)
