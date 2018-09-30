@@ -7,7 +7,7 @@
   >
     <div
       @click.stop
-      class="w-1/2 max-w-full rounded-lg p-4 bg-grey-lightest mx-auto"
+      class="w-1/2 max-w-full rounded-lg p-4 bg-grey-lightest mx-auto shadow-lg"
     >
       <h3 class="text-center mb-4">Modal Title</h3>
       <div class="mb-4">
@@ -31,6 +31,30 @@ export default {
     show: {
       required: true,
       default: false
+    },
+    hideParentScroll: {
+      default: true
+    }
+  },
+
+  /* Depending on the user settings, we listen to changes in the show
+   * prop and based on that and the setting for hiding the parent scroll,
+   * we add/remove he scroll property.
+   * When the show prop changes we check the setting, if the setting is
+   * to not hide the scroll from the parent component then do nothing.
+  */
+  watch: {
+    show: {
+      handler: function(show){
+        if ( show ) {
+          // if the setting is to hide the parent scroll, hide it
+          this.hideParentScroll && document.body.style.setProperty("overflow-y", "hidden");
+        } else {
+          // the 
+          this.hideParentScroll && document.body.style.removeProperty("overflow-y");
+        }
+      },
+      immediate: true
     }
   },
 
