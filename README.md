@@ -1,6 +1,6 @@
 # Encapsultaing Behavior Global Events
 
-Creating some reusable and more complex Vue Components.
+Modal Sample
 
 ## Start Up Code
 
