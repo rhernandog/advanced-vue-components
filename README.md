@@ -1,10 +1,11 @@
-# Encapsultaing Behavior
+# Encapsultaing Behavior Global Events
 
-Creating some reusable and more complex Vue Components.
+Modal Sample
 
 ## Start Up Code
 
-[Codesanbox Link](https://codesandbox.io/s/n4qolyr42m?from-embed)
+[Codesanbox Link](https://codesandbox.io/s/1v1o4lvp9j?from-embed)
 
-## Video
-Video 3
+##  Video
+
+Video 4

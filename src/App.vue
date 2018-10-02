@@ -1,41 +1,52 @@
 <template>
-  <div class="min-h-screen bg-grey-darker p-4">
-    <div class="max-w-lg mx-auto">
-      <h1 class="text-2xl text-grey-lightest font-bold mb-6 text-center">
-        Date Picker Vue Component
-      </h1>
-
-      <div class="max-w-sm mx-auto bg-grey-lightest py-6 px-3 shadow-lg
-rounded">
-        <h4 class="mb-4">Select a Date</h4>
-        <DatePicker
-          v-model="date"
-          :options="{
-            format :'MMM DD, YYYY',
-            firstDay: 1
-          }"
-        ></DatePicker>
+  <div>
+    <!-- content -->
+    <div class="flex flex-wrap justify-center min-h-screen p-4">
+        
+      <div class="">
+        <h1 class="text-2xl font-bold mb-6 text-center">Modal Sample</h1>
       </div>
+      
+      <div class="w-full text-center">
+        <button
+          @click="toggleModal"
+          class="btn btn-blue"
+        >
+          Show Modal
+        </button>
+      </div>
+
     </div>
+
+    <!-- modal -->
+    <content-modal
+      :show="showModal"
+      @close="toggleModal"
+    ></content-modal>
+      
   </div>
 </template>
 
 <script>
-// get the daypicker
-import DatePicker from "./components/DatePicker";
-// eslint-disable-next-line
-console.clear();
+// get modal
+import ContentModal from "./components/SnapModal";
 
 export default {
   components: {
-    DatePicker
+    ContentModal
   },
-  
-	data(){
+
+  data(){
     return {
-      date: "Jun 22, 2018"
+      showModal: false
     };
   },
+
+  methods: {
+    toggleModal(){
+      this.showModal = !this.showModal;
+    }
+  }
 }
 </script>
 
