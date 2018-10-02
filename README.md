@@ -1,10 +1,10 @@
-# Advanced Vue Components Samples
+# Encapsultaing Behavior
 
-This is the controlled component sample for Advanced Vue Components
+Creating some reusable and more complex Vue Components.
 
-## CodeSandbox
+## Start Up Code
 
-[CodeSandbox Link](https://codesandbox.io/s/oxxlx055xy?from-embed)
+[Codesanbox Link](https://codesandbox.io/s/n4qolyr42m?from-embed)
 
 ## Video
-Videos 1 and 2.
+Video 3
