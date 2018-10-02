@@ -1,3 +1,10 @@
 # Advanced Vue Components Samples
 
-Creating some reusable and more complex Vue Components.
+This is the controlled component sample for Advanced Vue Components
+
+## CodeSandbox
+
+[CodeSandbox Link](https://codesandbox.io/s/oxxlx055xy?from-embed)
+
+## Video
+Videos 1 and 2
