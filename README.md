@@ -1,11 +1,11 @@
-# Encapsultaing Behavior Global Events
+# Encapsultaing Behavior DOM Manipulation
 
-Modal Sample
+Creating some reusable and more complex Vue Components.
 
 ## Start Up Code
 
-[Codesanbox Link](https://codesandbox.io/s/1v1o4lvp9j?from-embed)
+[Codesanbox Link](https://codesandbox.io/s/z0mx3w9km?from-embed)
 
-##  Video
+## Video
 
-Video 4
+Video 5
