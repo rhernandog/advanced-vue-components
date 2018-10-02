@@ -1,11 +1,11 @@
-# Encapsultaing Behavior DOM Manipulation
+# Encapsultaing Behavior Portals Use
 
-Creating some reusable and more complex Vue Components.
+Modal samples using portals.
 
 ## Start Up Code
 
-[Codesanbox Link](https://codesandbox.io/s/z0mx3w9km?from-embed)
+[Codesanbox Link](https://codesandbox.io/s/vy0k8283o5?from-embed)
 
 ## Video
 
-Video 5
+Video 6-7
