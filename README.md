@@ -1,11 +1,11 @@
-# Encapsultaing Behavior Portals Use
+# Injecting Content Using Slots
 
-Modal samples using portals.
+Creating some reusable and more complex Vue Components.
 
 ## Start Up Code
 
-[Codesanbox Link](https://codesandbox.io/s/vy0k8283o5?from-embed)
+[CodeSandbox Link](https://codesandbox.io/s/8x54ow4vl9?from-embed)
 
 ## Video
 
-Video 6-7
+Videos 8 & 9
