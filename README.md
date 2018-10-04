@@ -1,11 +1,10 @@
-# Injecting Content Using Slots
+# Extending Components Using Composition
 
-Creating some reusable and more complex Vue Components.
+Using composition and portals to create a Modal dialog and extend that to create different dialogs.
 
 ## Start Up Code
 
-[CodeSandbox Link](https://codesandbox.io/s/8x54ow4vl9?from-embed)
+[Codesandbox Link](https://codesandbox.io/s/jj8vjjxlk9?from-embed)
 
 ## Video
-
-Videos 8 & 9
+Video 10

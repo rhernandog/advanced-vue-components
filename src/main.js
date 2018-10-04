@@ -1,12 +1,11 @@
 import Vue from "vue"
 import App from "./App.vue"
-// get portals
+// get vue portals
 import PortalVue from "portal-vue";
 
 Vue.config.productionTip = false
 
-// set the use of vue portal
-Vue.use(PortalVue);
+Vue.use( PortalVue );
 
 new Vue({
   render: h => h(App)
